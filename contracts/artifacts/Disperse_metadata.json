@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"name": "values",
+						"type": "uint256[]"
+					}
+				],
+				"name": "disperseTokenSimple",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"name": "values",
+						"type": "uint256[]"
+					}
+				],
+				"name": "disperseToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"name": "values",
+						"type": "uint256[]"
+					}
+				],
+				"name": "disperseEther",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Disperse.sol": "Disperse"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Disperse.sol": {
+			"keccak256": "0x07bdc2f02e3da583756cdc335e0723222822af62dd13d5cb2f8ad616fc128ad6",
+			"urls": [
+				"bzzr://6fdd2643b93c3be907c01eabd4f76e16e67a312686b1e8a3465a76f8027cc7d4"
+			]
+		}
+	},
+	"version": 1
+}

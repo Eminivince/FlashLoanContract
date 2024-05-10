@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_response",
+						"type": "string"
+					}
+				],
+				"name": "Try",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/aave.sol": "IChallenge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@aave/core-v3/contracts/dependencies/openzeppelin/contracts/IERC20.sol": {
+			"keccak256": "0xf57d62241e553696a1324d225663ba2e1a51db0a51ca236d0c1b009d89b6284c",
+			"license": "AGPL-3.0",
+			"urls": [
+				"bzz-raw://d327db93b636790909aa137124f30a856ac1631cb79c476aa188f9627fda8d03",
+				"dweb:/ipfs/QmaxpmEoBFioeNYmpxJemyZ7aYF2nX1NKW1XDqREm7i6es"
+			]
+		},
+		"@aave/core-v3/contracts/flashloan/base/FlashLoanSimpleReceiverBase.sol": {
+			"keccak256": "0x3a04fc046c4f04c71ff230eba56e56bb718be41e4317f0c938bd287d81e384b1",
+			"license": "AGPL-3.0",
+			"urls": [
+				"bzz-raw://8a02e8f6034e6536269eca55dc4e068e584a67cef530dea865d9a75e0e950ca3",
+				"dweb:/ipfs/QmdwL6Wvbk8QAyThNzPkeCfmTUryUdUnkbBDSRs5eigBmj"
+			]
+		},
+		"@aave/core-v3/contracts/flashloan/interfaces/IFlashLoanSimpleReceiver.sol": {
+			"keccak256": "0xba50a7834ddfdca3e3cfac09043f72699be42ff88925641ac30950a434b2b2ff",
+			"license": "AGPL-3.0",
+			"urls": [
+				"bzz-raw://588513e813da8c9edf06bdd8912f33f5e304735e4b0145da9fb034eb46f205b5",
+				"dweb:/ipfs/Qmco68eeRnTUGyZaoZ9Vu4R7xzH9x1pUwP36nUvrxnxHxg"
+			]
+		},
+		"@aave/core-v3/contracts/interfaces/IPool.sol": {
+			"keccak256": "0xbfd2077251c8dc766a56d45f4b03eb07f3441323e79c0f794efea3657a99747f",
+			"license": "AGPL-3.0",
+			"urls": [
+				"bzz-raw://c6ff6221de0ea877932c73c0b99d3e4535f293053ae44f9f9d6b9d265e9af2f6",
+				"dweb:/ipfs/QmSTaEKrhz1xNVnx4oBzWw8DenYPShVzJoP1A9GTEWkAzX"
+			]
+		},
+		"@aave/core-v3/contracts/interfaces/IPoolAddressesProvider.sol": {
+			"keccak256": "0x33d4308d9407b4ee2297fc4ba5acce1a96a6c658189e2778a4f6b90e032fb3b5",
+			"license": "AGPL-3.0",
+			"urls": [
+				"bzz-raw://978336a2a40229ccc7749344be890862ea12e17e9fffe5bb977ba3841de07b5a",
+				"dweb:/ipfs/QmScNrQfDSPg1afJmkCty6fZkETUrWTmEXWeTmHoe7mSqa"
+			]
+		},
+		"@aave/core-v3/contracts/protocol/libraries/types/DataTypes.sol": {
+			"keccak256": "0x771cb99fd8519c974f7e12130387c4d9a997a6e8d0ac10e4303b842fe53efa88",
+			"license": "BUSL-1.1",
+			"urls": [
+				"bzz-raw://0f41689d1d58bc13678c749bae8830f5a8b19b89cd135e962bf07d483350f828",
+				"dweb:/ipfs/QmQSNGDxjYGqT1GU2CZzsWUTNcAtcfkg1jDGTH516nCAfN"
+			]
+		},
+		"contracts/aave.sol": {
+			"keccak256": "0x1ab1ae8e6b45cb4acf7031330321b75fa1d1484d1c2dec9eeec8f6a650d77f65",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13fb2c8a4918896a7a3bbdf565b4932b8056cd6b2198b42ebd6724f31331799a",
+				"dweb:/ipfs/QmYhMYoop5FkWhftMrDwAK7PCMNJBvj3Vi3BwohT6FyDQq"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_takeMyEtherAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_response",
+						"type": "string"
+					}
+				],
+				"name": "callTry",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "takeMyEtherContract",
+				"outputs": [
+					{
+						"internalType": "contract ITakeMyEther",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CallTry.sol": "CallerContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CallTry.sol": {
+			"keccak256": "0xf8ea01655032236c3d687716e37ccb80b0b486c5fe054aa169ce932acaba12b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://120ccef700baca1c2e8adf86ffeaaa6ddb1b2972f49dc402a90839d4aac498e3",
+				"dweb:/ipfs/QmT4Gtq7ptNdxuYdmf5cQa3GebvnKjEFfCZMmhfDQC3ipR"
+			]
+		}
+	},
+	"version": 1
+}
